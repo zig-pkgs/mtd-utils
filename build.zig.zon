@@ -1,0 +1,25 @@
+.{
+    .name = .mtd_utils,
+    .version = "2.3.1",
+    .dependencies = .{
+        .lzo = .{
+            .url = "git+https://github.com/zig-pkgs/lzo.git#673a62bb9f35f43f2873caf153a5649a793500f3",
+            .hash = "lzo-2.10.0-aKjAWjQYAADLjLF1SocxCuJn7hO3QeGcDhb1eVv4Homx",
+        },
+        .util_linux = .{
+            .url = "git+https://github.com/zig-pkgs/util-linux.git#8781223c3d27d14f94345e3b116a304fe1d2da9e",
+            .hash = "util_linux-2.42.4-QNZMuVooAACnpgLoIYN_CWGZasFv7DM2De4KFVKPq784",
+        },
+        .zlib = .{
+            .url = "git+https://github.com/allyourcodebase/zlib.git#d3b5519d3b73616a6bfece0712f080029d2a9244",
+            .hash = "zlib-1.3.2-ZZQ7lc8NAAAHm9MDfplvwoesXvk4tVm6VCsiI8KnIbT0",
+        },
+    },
+    .minimum_zig_version = "0.17.1",
+    .paths = .{
+        "upstream",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .fingerprint = 0x73339315791f6401,
+}
